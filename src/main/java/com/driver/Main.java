@@ -5,7 +5,7 @@ public class Main {
     System.out.println(p.product(10, 20));
     System.out.println(p.product(10,20,30));
     System.out.println(p.product(10.5,20.5));
-public static class Product{
+class Product{
     public int product(int x, int y) {
         return x*y;
     }
@@ -16,5 +16,5 @@ public static class Product{
         return(x*y);
     }
 
-    }
+}
 }
